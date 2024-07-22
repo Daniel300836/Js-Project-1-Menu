@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    border: 1px solid #7c7777;
+    width: 80%;
+    height: auto;
+    margin: 50px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    font-weight: 200;
+    margin: 20px 0 15px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    /* table-layout: fixed */;
+}
+caption button{
+    margin-bottom: 10px;
+}
+tr th{
+    border-top: 1px solid #7c7777;
+    padding: 10px 0 25px;
+    font-size: 18px;
+}
+tr td{
+    border-top: 1px solid #7c7777;
+    padding: 0 0 20px;
+}
+/* Is it necessary? */
+tr td img{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    margin-bottom: 10px;
+}
+button{
+    width: 110px;
+    background: #ee720d;
+    color: #fff;
+    border: 0;
+    padding: 10px 6px;
+    border-radius: 3px;
+}
+button:hover{
+    background: #b35202;;
+    color: #fff;
+}
+
+/* new */
+.form-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="file"],
+.form-container select,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.form-container button:hover{
+    background-color: #45a049;
+}
+
+#modal-btn{
+    background: #ee720d;
+    width: 130px;
+    color: #fff;
+    padding: 6px 8px;
+}
